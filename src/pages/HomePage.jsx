@@ -1,10 +1,10 @@
-// src/pages/HomePage.jsx
+
 import React from 'react';
 import { courses, categories } from '../data/dummyData';
 import CourseCard from '../Components/CourseCard.jsx';
 import CategoryCard from '../Components/CategoryCard.jsx';
 import { useSearch } from '../context/SearchContext.jsx';
-import { Typewriter } from 'react-simple-typewriter'; // ✅ Import here
+import { Typewriter } from 'react-simple-typewriter'; 
 
 const HomePage = () => {
   const { searchQuery } = useSearch();

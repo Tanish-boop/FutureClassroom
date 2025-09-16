@@ -1,14 +1,12 @@
-// src/components/Header.jsx
-
 import React from 'react';
-import { useSearch } from '../context/SearchContext.jsx'; // Import the useSearch hook
+import { useSearch } from '../context/SearchContext.jsx'; 
 
 const Header = () => {
-  // Get the current searchQuery and the function to update it from the context
+  
   const { searchQuery, setSearchQuery } = useSearch();
 
   const handleSearchChange = (event) => {
-    setSearchQuery(event.target.value); // Update the shared search query state
+    setSearchQuery(event.target.value); 
   };
 
   return (

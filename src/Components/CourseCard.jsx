@@ -1,4 +1,4 @@
-// src/components/CourseCard.jsx
+
 
 import React from 'react';
 import { Link } from 'react-router-dom';
@@ -20,7 +20,7 @@ const CourseCard = ({ course }) => {
   };
 
   return (
-    // Wrap the entire card in a Link component for navigation
+    
     <Link to={`/course/${course.id}`} className="block">
       <div className="bg-white rounded-lg shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden cursor-pointer h-full flex flex-col">
         {/* Thumbnail Image */}
